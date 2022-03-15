@@ -21,6 +21,8 @@ uname -a
 man uname
 ```
 
+## Directories
+
 - ls: List the files of the current directory:
 ```
 # Normal
@@ -37,4 +39,21 @@ mkdir mydir
 
 # Make a new directory inside mydir called as mydir2
 mkdir mydir/mydir2
+```
+
+- cd: Go to the given directory:
+```
+# Enter to a simple directory
+cd mydir
+ 
+# Out of the current directory
+cd ../
+
+# Enter to a nested directory
+cd mydir/mydir2
+```
+
+- tree or lstree: Display the structure of the current directory
+```
+tree
 ```
