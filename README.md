@@ -53,7 +53,26 @@ cd ../
 cd mydir/mydir2
 ```
 
-- tree or lstree: Display the structure of the current directory
+- tree or lstree: Shows the structure of the current directory
 ```
 tree
+```
+
+## Files
+- touch: Creates a new file
+```
+# creates a empty file
+touch example.txt
+```
+
+- vi: Open the text editor.
+Tips.
+VI works with Mnemonic commands for example:
+-- Press "i" key in order to switch to "Insert" mode.
+-- Press "v" key in order to switch to "Visual" mode.
+-- Press "ESC" key to exit any mode.
+-- Press : key in normal mode in order to input commands like save with the "w" key and "q" key to exit VI.
+
+```
+
 ```
