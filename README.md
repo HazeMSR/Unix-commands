@@ -65,7 +65,7 @@ tree
 touch example.txt
 ```
 
-- vi: Open the text editor.
+- vi: Opens the text editor.
 Tips.
 VI works with Mnemonic commands for example:
   - Press "i" key in order to switch to "Insert" mode.
@@ -74,5 +74,26 @@ VI works with Mnemonic commands for example:
   - Press : key in normal mode in order to input commands like save with the "w" key and "q" key to exit VI.
 
 ```
+# First press I, then enter a random text then press ESC and finally press :wq and ENTER key in order to exit and save
 
+vi example.txt
+
+Some random text 1
+Some random text 2
+Some random text 3
+Some random text 4
+Some random text 5
+Some random text 6
+
+
+----INSERT----
+:wq!
+```
+- cp: Copy a file or a directory
+```
+# Syntax: cp original_file destiny_file
+cp example.txt example2.txt
+
+# Copy your file to one directory up
+cp example.txt ../example3.txt
 ```
