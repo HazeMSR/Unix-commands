@@ -94,6 +94,56 @@ Some random text 6
 # Syntax: cp original_file destiny_file
 cp example.txt example2.txt
 
-# Copy your file to one directory up
+# Copying your file to one directory up
 cp example.txt ../example3.txt
+```
+
+- mv: Move or rename any file or directory
+```
+# Syntax: mv original_file destiny_file
+mv example2.txt another_example.txt
+
+# Moving your file to one directory up
+mv another_example.txt ../
+```
+
+- rm: Remove any file or directory
+
+```
+# Removing a simple file
+touch deleteme.txt && rm deleteme.txt
+
+# Removing a directory
+mkdir dir1 && rm -R dir1
+```
+
+- cat: Shows the content of a file
+```
+cat example.txt
+```
+
+## Permissions
+
+- chmod: Change who can execute, write and read any file or directory
+```
+# Syntax: chmod [permissions] [file]
+# Permissions with Mnemonic. u: user, g: group, o: others, r: read, w: write, x: execute
+
+chmod ugo+rwx example.txt
+
+# Permissions with Octal. 1st position user, 2nd position group, 3rd position others, 4: read, 2: write, 1: execute, 0: no permission.
+# You can add any numbers in order for obtain different combination of permissions, for example 7 represents all the permissions.
+
+chmod 740 example.txt
+```
+
+- chown: Change the owner of a file or directory
+```
+# Syntax: chown [user]:[group] file
+# If you only want to change the user you don't have to specify the group
+
+chown anotheruser example.txt
+
+# Or specify the group also
+chown anotheruser:anothergroup example.txt
 ```
