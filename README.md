@@ -269,7 +269,7 @@ find ./ --name '.txt'
 |
 ------------------node3133
 ```
-2. Download the Great Gatsby inside node111, Alice in Wonderlands inside node12, Sherlock Holmes inside node1321, Adventures of Huckleberry Finn inside node2221, Metamorphosis inside node3133 and Les Misérables inside node3132. You must download in txt format and you can do it from [this website](https://www.gutenberg.org/browse/scores/top). Use the wget in order to download the book:
+2. Download the Great Gatsby inside node111, Alice in Wonderlands inside node12, Sherlock Holmes inside node1321, Adventures of Huckleberry Finn inside node2221, Metamorphosis inside node3133 and Les Misérables inside node3132. You must download in txt format and you can do it from [this website](https://www.gutenberg.org/browse/scores/top). Use the wget command in order to download the book:
 
 ```
 # Example
