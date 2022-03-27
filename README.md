@@ -203,10 +203,22 @@ grep text example.txt
 - find: It is used to find files or directories with the given pattern
 ```
 # Syntax: find [directory] --name [pattern]
-find ./ --name '.txt'
+find ./ --name '*.txt'
 
 ```
 
+Also we can use both together:
+
+```
+# Regular find
+find ./ –type f –name '*txt*'
+
+# Pipeing with grep
+find ./ –type f | grep 'txt'
+
+# Using grep with exec option
+find ./  -name '*.txt' -exec grep '4' {} \;
+```
 
 # Assignment
 
@@ -278,3 +290,7 @@ wget https://www.gutenberg.org/files/84/84-0.txt
 3. Change the default name, give a proper name to each book.
 4. Copy the Great Gatsby to node11, Alice in Wonderlands to node131, Sherlock Holmes to node1, Adventures of Huckleberry Finn to node2221, Metamorphosis to node2 and Les Misérables to node1321.
 5. Delete all the original files.
+6. Change the permissions of all the files and directories of node1 to execute, write and read for the user and read to others with Mnemonic command. Then of node2 change only read for the user with octal command and finally to node3 write and read for the user, read for the group and also read for others usign Mnemonic.
+7. Search in all previously downloaded files the sentences that contain the words "money", "strawberry", "fields", "black", "dog", "smooth", "criminal". Print those sentences in different files, each named after the word that was searched, for example: money.txt, dog.txt, etc... Also at the end of each file write the number of occurrences found of each word.
+- Tip: You can use more than one command to do it.
+8. Zip all the books and the results of each word in one file tar.gz. Tip: It doesn't matter if you move the file to another directory, but if you do it without move the current directories structure you will be The one and only H A C K E R M A N 3 0 0 0.
