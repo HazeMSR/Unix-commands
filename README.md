@@ -293,6 +293,7 @@ wget https://www.gutenberg.org/files/84/84-0.txt
 6. Change the permissions of all the files and directories of node1 to execute, write and read for the user and read to others with Mnemonic command. Then node2 change only read for the user with octal command and finally node3 write and read for the user, read for the group and also read for others usign Mnemonic.
 7. Search in all previously downloaded files the sentences that contain the words "money", "strawberry", "fields", "black", "dog", "smooth", "criminal". Print those sentences in different files, each named after the word that was searched, for example: money.txt, dog.txt, etc... Also at the end of each file write the number of occurrences found of each word.
 - Tip: You can use more than one command to do it.
+- 2nd Tip: If there is some file that can not be readed by your command you can change the permissions to 700 again.
 8. Zip all the books and the results of each word in one file tar.gz. Tip: It doesn't matter if you move the file to another directory, but if you do it without move the current directories structure you will be The one and only H A C K E R M A N 3 0 0 0.
 
 
