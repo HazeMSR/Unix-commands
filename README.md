@@ -194,7 +194,7 @@ Also if we need to use the output of the command as input of another command we 
 ls -l | cat
 ```
 
-## Grep & Find
+## GREP & Find
 - grep: It is used to search patterns inside the content of a file
 ```
 # Syntax: grep [pattern] [file]
